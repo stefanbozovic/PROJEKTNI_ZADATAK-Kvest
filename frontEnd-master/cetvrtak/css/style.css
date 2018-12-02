@@ -154,29 +154,9 @@ h3{
     margin: auto;
     display: block;
 }
-#listaTimova{
-    text-align: center;
-    color: #33FFCC; /*#3d3d8c;*/
-}
-#listaTimova img{
-    border-radius: 50%;
-}
-#listaTimova h1{
-    margin-left: 10%;
-}
-#listaTimova .clanoviTima:hover{
-    /*filter: brightness(10); 
-    filter: hue-rotate(360deg);*/
-    color: #33FFCC;
-}
-.clanoviTima img:hover{
-    filter: hue-rotate(180deg);
-    filter: brightness(100%);
-
-}
-#listaTimova img, h1{
+#listaTimova div img, h1{
     display: inline;
 }
-.clanoviTima:hover{
-    /*filter: drop-shadow(0 0 1rem #33FFCC);*/
+#listaTimova *{
+    margin: 1%;
 }

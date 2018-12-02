@@ -1,0 +1,101 @@
+body {
+    margin: 2em auto;
+    /*background-image: url("img/school.png");*/
+    background-color: #1D1D1D;
+    color: white;
+    font-family: 'Montserrat', sans-serif;  
+}
+  
+form div {
+    margin-bottom: 0.5em;
+}
+
+form div label, form div input {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form {
+    width: 70%;
+    color: rgb(196, 196, 196);
+    padding: 2%;
+    position: relative;
+    left: 15%;
+}
+.btn-secondary {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    text-align: center;
+    font-style: bold;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+.btn-secondary:focus {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+
+.form-control {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: rgb(223, 223, 223);
+}
+#output {
+    background-color: rgb(56, 56, 56);
+    border: none;
+}
+.col-md-4 {
+    padding: 3%;
+}
+.clanoviTima {
+    display: inline-block;
+    /*border: 2px solid rgb(56, 56, 56);*/
+    padding: 2%;
+    margin: 2%;
+    width: 100%;
+    overflow: hidden;
+    color: #383838;
+    margin-bottom: 100px;
+}
+@media only screen and (min-width: 850px) {
+    .clanoviTima {
+        width: 45%;
+    }
+}
+.clanoviTima h2{
+    text-align: center;
+}
+.clanoviTima img{
+    filter: grayscale(1);
+}
+#listaTimova{
+    text-align: center;
+    color: #33FFCC; /*#3d3d8c;*/
+}
+#listaTimova img{
+    border-radius: 50%;
+}
+#listaTimova h1{
+    margin-left: 10%;
+}
+#listaTimova .clanoviTima:hover{
+    /*filter: brightness(10); 
+    filter: hue-rotate(360deg);*/
+    color: #33FFCC;
+}
+.clanoviTima img:hover{
+    filter: hue-rotate(180deg);
+    filter: brightness(100%);
+
+}
+#listaTimova img, h1{
+    display: inline;
+}
+.clanoviTima:hover{
+    /*filter: drop-shadow(0 0 1rem #33FFCC);*/
+}
