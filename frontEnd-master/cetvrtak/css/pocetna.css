@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+}
+body{
+    /*background-image: url(../img/sl.png);*/
+    background-size: auto;
+    background-color: #000000fb;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.naslov{
+    font-size: 4rem;
+    font-weight: bold;
+    height: 40%;
+    margin: 15% 0;
+    color: #33ffcc;
+    letter-spacing: 5px;
+}
+.pom{
+    height: 400px;
+}
+.prvideo{
+    height: 400px;
+    background-color: rgba(23, 23, 23, 0.86);
+    box-shadow: 4px 20px 60px 9px rgba(0, 0, 0, 0.25);
+    width: 100vw;
+    margin-left: -50vw;
+    position: relative;
+    left: 50%;
+    padding: 0 115px;
+}
+.text-lista{
+    text-align: center;
+    padding: 20% 0 5%;
+    font-size: 2.7rem;
+    margin: 0px;
+    background: -webkit-linear-gradient(left, #d494ff, #00ffbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.broj-lista{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(left, #a520ff, #00ffbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dugme-lista{
+    display: block;
+    text-align: center!important;
+    padding: 0px;
+    opacity: 0.5;
+    color: white;
+    transition: 5ms;/*nece da radi*/
+}
+.dugme-lista:hover{
+    
+    display: block;
+    color: white;
+    opacity: 1;
+    text-decoration: none;
+}
+.dugme-lista {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.dugme-lista span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.dugme-lista span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.dugme-lista:hover span {
+padding-right: 5%;    
+}
+.dugme-lista:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.in{
+    padding: 12% 0;
+    float: left;
+}
+#prijava{
+    margin: 9% 9%;
+    padding: 4% 6%;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+    background-color: #00d8a2;
+    background-image: linear-gradient(red, yellow); /*ne radi*/
+    border-radius: 50px;
+    border: 0px;
+    
+    transition: 0.5s;
+    float: right;
+}
+#prijava:hover{
+    box-shadow: -1px 14px 20px 7px rgba(42, 255, 201, 0.27);
+    background-color: #33ffcc;
+    text-decoration: none;
+
+}
+#login{
+    margin: 25% 25%;
+    width: 50%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+.zag {
+    opacity: 1;
+    display: inline-block;
+    position: relative;
+    padding: 4%;
+    text-decoration: none;
+    color: #000;
+    transition: .4s;
+}
+
+.zag:hover {
+    color:#fff8f8;
+}
+.zag:before,.zag:after{
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 8px;
+    height: 100%;
+    display: inline-block;
+}
+.zag:before{
+    border-left: solid 5px #7952d8;
+    border-top: solid 5px #7952d8;
+    border-bottom: solid 5px #7952d8;
+    left: 0;
+}
+.zag:after{
+    content: '';
+    border-top: solid 5px #33ffcc;
+    border-right: solid 5px #33ffcc;
+    border-bottom: solid 5px #33ffcc;
+    right: 0;
+}
+/*
+.btn {
+    color: rgb(56,56,56);
+}
+.btn:hover {
+    color: rgb(87, 134, 120);
+}
+#btn1{
+    background:#A8A8A8;
+    margin: 55px;
+    padding: 20px;
+    width: 200px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+#btn2{
+    float: right;
+    background:#A8A8A8;
+    margin: 55px;
+    padding: 20px;
+    width: 200px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
+#btn3{
+    left: 33%;
+    position: absolute;
+    top: 50%;
+    padding: 25px;
+    background:#A8A8A8;
+    width: 33%;
+    font-family: "Century Gothic";
+    font-size: 30px;  
+}
+
+#btn1:hover{
+     transform: translate(1.5rem) scale(1.2);
+ } 
+
+#btn2:hover{
+    transform: translate(-1.5rem) scale(1.2);
+} 
+
+#btn3:hover{
+    transform: scale(1.2);
+} */
+canvas {
+    display: block;
+
+}
+.glavni{
+    position: absolute;
+    top: 0;
+    background-color: rgba(29, 29, 29, 0.8);
+    margin: 0%;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+}
+
+@media only screen and (max-width: 992px) {
+    .prvideo{height: auto;
+    padding: 2% 10%;
+    margin-left: -51vw;}
+    .glavni{height: auto;}
+    .pom{height: auto;}
+    .naslov{ margin: 5% 0;}
+    .text-lista{
+        padding: 0%;
+        text-align: right;
+    }
+    .counter{text-align: right;}
+    .dugme-lista{
+        text-align: right !important;
+    }
+    #login{ margin: 10% 25%;}
+    #prijava {margin: 9% 0%;}
+    
+}@media only screen and (max-width: 550px) {
+    .prvideo{margin-left: -52vw;}
+}
+@media only screen and (max-width: 550px) {
+    .in{ 
+        float: none; 
+        text-align: center; 
+    }
+    #prijava{ 
+        float: none; 
+        margin: 0% 27%;}
+    .naslov{
+        font-size: 3rem;
+    }
+    .prvideo{margin-left: -53vw;}
+}
