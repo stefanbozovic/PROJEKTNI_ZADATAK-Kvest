@@ -138,12 +138,6 @@ h3{
 .clanoviTima div img,p{
     display: inline;
 }
-#listaTimova div img, h1{
-    display: inline;
-}
-#listaTimova *{
-    margin: 1%;
-}
 .tim{
     background-color: rgba(41, 41, 41, 0.66);
     padding: 2% !important;
@@ -159,4 +153,30 @@ h3{
     font-weight: bold;
     margin: auto;
     display: block;
+}
+#listaTimova{
+    text-align: center;
+    color: #33FFCC; /*#3d3d8c;*/
+}
+#listaTimova img{
+    border-radius: 50%;
+}
+#listaTimova h1{
+    margin-left: 10%;
+}
+#listaTimova .clanoviTima:hover{
+    /*filter: brightness(10); 
+    filter: hue-rotate(360deg);*/
+    color: #33FFCC;
+}
+.clanoviTima img:hover{
+    filter: hue-rotate(180deg);
+    filter: brightness(100%);
+
+}
+#listaTimova img, h1{
+    display: inline;
+}
+.clanoviTima:hover{
+    /*filter: drop-shadow(0 0 1rem #33FFCC);*/
 }
